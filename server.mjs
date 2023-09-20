@@ -1,6 +1,7 @@
 import express from "express";
 import path from 'path'
 import cors from "cors";
+import 'dotenv/config';
 const __dirname = path.resolve()
 
 import postRouter from "./routes/post.mjs";
